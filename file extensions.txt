@@ -1,0 +1,4 @@
+fname=input("Input the Filename:")
+extension=fname.split(".")[-1]
+dictionary={"py":"python","java":"java","txt":"text"}
+print("The extension of the file is :",dictionary[extension])
